@@ -20,7 +20,7 @@ This app helps users (students, job-seekers, interviewees) prepare for technical
 
 ## 🏗️ Tech Stack
 
-- **Frontend**: React, TailwindCSS, Axios
+- **Frontend**: React, Axios
 - **Backend**: Node.js, Express.js, dotenv
 - **AI Service**: OpenAI API (GPT-4 / GPT-3.5-turbo)
 - **Development Tools**: nodemon, concurrently
@@ -41,24 +41,25 @@ fullstack-ai-qa-app/
 ## 📦 Dependencies
 
 ### Backend
+- axios
 - express
 - cors
 - dotenv
 - openai
 - nodemon
 
+
 ### Frontend
 - react
 - axios
-- tailwindcss
 
 ## ⚙️ How to Run
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/fullstack-ai-qa-app.git
-cd fullstack-ai-qa-app
+git clone https://github.com/Govindrajewar/fullstack-ai-app.git
+cd fullstack-ai-app
 ```
 
 ### 2. Setup Backend
@@ -66,7 +67,6 @@ cd fullstack-ai-qa-app
 ```bash
 cd server
 npm install
-touch .env
 ```
 
 Add your OpenAI key in `.env`:
@@ -77,7 +77,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 Run backend:
 ```bash
-npm run dev
+node server.js
 ```
 
 ### 3. Setup Frontend
@@ -88,7 +88,8 @@ npm install
 npm start
 ```
 
-App will run on: `http://localhost:3000`
+Frontend App will run on: `http://localhost:3000`
+Backend App will run on: `http://localhost:5000`
 
 ### 4. Test the App
 
