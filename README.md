@@ -101,6 +101,8 @@ Backend App will run on: `http://localhost:5000`
 
 - `model_not_found`: Make sure you have access to GPT-4 or change model to `gpt-3.5-turbo`.
 - `insufficient_quota`: Upgrade your OpenAI plan or use valid API key.
+> Status Code for Error: https://platform.openai.com/docs/guides/error-codes/api-errors
+
 ![alt text](image.png)
 
 ## 📬 Contact
